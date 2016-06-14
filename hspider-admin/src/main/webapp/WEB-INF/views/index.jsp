@@ -7,7 +7,18 @@
     <jsp:include page="global/global.jsp"/>
 </head>
 <body>
-<h2>Hello World!</h2>
+<div class="g-hd">
+honshe
+</div>
+<div class="g-sd">
+边栏
+</div>
+<div class="g-mn">
+
+</div>
+<div class="g-ft">
+
+</div>
 <jsp:include page="global/global-script.jsp"/>
 </body>
 </html>
