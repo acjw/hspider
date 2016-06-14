@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hspider-admin" />
+        <module name="hspider-admin-contrl" />
+        <module name="hspider-common" />
+        <module name="hspider-dao" />
+        <module name="hspider-msg" />
+        <module name="hspider-pojo" />
+        <module name="hspider-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hspider" target="1.8" />
+      <module name="hspider-admin" target="1.8" />
+      <module name="hspider-admin-contrl" target="1.8" />
+      <module name="hspider-common" target="1.8" />
+      <module name="hspider-dao" target="1.8" />
+      <module name="hspider-msg" target="1.8" />
+      <module name="hspider-pojo" target="1.8" />
+      <module name="hspider-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
