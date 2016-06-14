@@ -16,7 +16,27 @@
     w边栏 asdfa
 </div>
 <div class="g-mn">
+    <div class="col-sm-12">
 
+        <div class="row">
+            <h5>我的服务器</h5>
+            <div class="col-sm-6">
+                <div class="u-box">
+                    <div class="u-title-bar">
+                        <div class="u-title">
+                            <span>234234</span>
+                        </div>
+                        <div class="u-other">
+
+                        </div>
+                    </div>
+                    <div class="u-content">
+                        s
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <div class="g-ft">
 

@@ -10,6 +10,7 @@
     }
     request.setAttribute("basePath", basePath);
 %>
+<link rel="stylesheet" href="${basePath}/third-party/bootstrap-3.3.5/css/bootstrap.min.css">
 <link rel="stylesheet" href="${basePath}/static/global/global.css">
 <link rel="stylesheet" href="${basePath}/static/global/style.css">
 <link rel="stylesheet" href="${basePath}/static/global/skin.css">
