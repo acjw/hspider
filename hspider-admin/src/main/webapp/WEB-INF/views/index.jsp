@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <title>优易智慧产业地图 - 首页</title>
+    <title>宏蛇管理系统 - 首页</title>
     <jsp:include page="global/global.jsp"/>
 </head>
 <body>
