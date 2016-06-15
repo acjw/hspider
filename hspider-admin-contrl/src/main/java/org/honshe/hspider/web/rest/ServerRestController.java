@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("server")
 public class ServerRestController {
+
+
     
     @RequestMapping(value = "myServers",method = RequestMethod.GET)
     public RestResult myServers() {
