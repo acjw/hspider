@@ -22,7 +22,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="hspider-admin" />
         <module name="hspider-admin-contrl" />
         <module name="hspider-admin-html" />
         <module name="hspider-common" />

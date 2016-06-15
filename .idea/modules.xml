@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/hspider.iml" filepath="$PROJECT_DIR$/hspider.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hspider-admin/hspider-admin.iml" filepath="$PROJECT_DIR$/hspider-admin/hspider-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/hspider-admin-contrl/hspider-admin-contrl.iml" filepath="$PROJECT_DIR$/hspider-admin-contrl/hspider-admin-contrl.iml" />
       <module fileurl="file://$PROJECT_DIR$/hspider-common/hspider-common.iml" filepath="$PROJECT_DIR$/hspider-common/hspider-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/hspider-dao/hspider-dao.iml" filepath="$PROJECT_DIR$/hspider-dao/hspider-dao.iml" />
