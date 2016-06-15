@@ -1,0 +1,17 @@
+.u-sm-6{
+    margin-bottom: 8px;
+}
+.u-region-box{
+    border: 1px solid #ccd6e0;
+}
+.u-title-bar {
+    height: 38px;
+    background: #F8F9FB;
+    border-bottom: 1px solid #ccd6e0;
+}
+.u-title-bar .u-title {
+    padding: 12px 8px;
+}
+.u-region-box .u-content {
+    padding: 28px 24px;
+}
