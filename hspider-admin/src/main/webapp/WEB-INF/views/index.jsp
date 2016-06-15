@@ -18,7 +18,7 @@
 </div>
 <div class="g-mn">
     <div class="row">
-        <div class="col-sm-12">
+        <div class="col-sm-12 u-console-title">
             <h5>我的服务器</h5>
         </div>
         <c:forEach begin="1" end="10">
