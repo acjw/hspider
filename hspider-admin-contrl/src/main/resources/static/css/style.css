@@ -1,0 +1,20 @@
+.u-spider-detail dt{
+    background: #F5f6FA;
+    margin-top: 10px;
+    margin-bottom: -1px;
+    height: 40px;
+    line-height: 38px;
+    border: 1px solid #e1e6eb;
+    position: relative;
+    border-left: 4px solid #6d7781;
+}
+.u-spider-detail dd{
+    padding: 11px 20px;
+    border: 1px solid #eeeeee;
+}
+.u-spider-detail .u-detail-box{
+    position: relative;
+    background-color: #f8f9fb;
+    height: 192px;
+    margin-top: 10px;
+}

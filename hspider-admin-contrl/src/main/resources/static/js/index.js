@@ -28,9 +28,10 @@ app.controller('spider', function ($http,$scope) {
         $scope.spiders = response.data.data.spiders;
     });
 });
-app.controller('spiderDetail', function ($http,$scope) {
+app.controller('spiderDetail', function ($http,$scope,$routeParams) {
     var self = this;
-    $http.get('/spider/spiderDetail').then(function (response) {
-        $scope.spiders = response.data.data.spiders;
+    console.log($routeParams);
+    $http.get('/spider/spiderDetail',{params:$routeParams}).then(function (response) {
+        $scope.spider = response.data.data.spider;
     });
 });
