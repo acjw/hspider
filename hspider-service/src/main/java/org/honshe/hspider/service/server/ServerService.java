@@ -16,7 +16,7 @@ public class ServerService {
     @Autowired
     ServerRepository serverRepository;
 
-    List<Server> findAll(){
+    public List<Server> findAll(){
         return serverRepository.findAll();
     }
 }

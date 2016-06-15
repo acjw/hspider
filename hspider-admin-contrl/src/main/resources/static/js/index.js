@@ -17,7 +17,8 @@ app.config(function ($routeProvider, $httpProvider) {
 app.controller('summary', function ($http) {
     var self = this;
     $http.get('/server/myServers').then(function(response) {
-        self.greeting = response.data;
+        self.servers = response.data.data.servers;
+        console.log(self.servers);
     })
     console.log('hone');
 });
