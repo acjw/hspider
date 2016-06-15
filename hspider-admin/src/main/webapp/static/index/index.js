@@ -2,8 +2,8 @@ var app = angular.module('admin', ['ngRoute']);
 app.config(function ($routeProvider, $httpProvider) {
 
     $routeProvider.when('/', {
-        templateUrl: 'home.html',
-        controller: 'home',
+        templateUrl: 'html/summary.html',
+        controller: 'summary',
         controllerAs: 'controller'
     }).when('/login', {
         templateUrl: 'login.html',
@@ -14,7 +14,7 @@ app.config(function ($routeProvider, $httpProvider) {
     $httpProvider.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 });
-app.controller('home', function ($http) {
+app.controller('summary', function ($http) {
     var self = this;
     console.log('hone');
 });

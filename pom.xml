@@ -16,6 +16,7 @@
         <module>hspider-common</module>
         <module>hspider-admin</module>
         <module>hspider-admin-contrl</module>
+        <module>hspider-admin-html</module>
     </modules>
 
     <parent>

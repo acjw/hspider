@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="hspider-admin:war">
-    <output-path>$PROJECT_DIR$/hspider-admin/target</output-path>
-    <root id="archive" name="hspider-admin.war">
-      <element id="artifact" artifact-name="hspider-admin:war exploded" />
-    </root>
-  </artifact>
-</component>

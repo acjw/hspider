@@ -5,7 +5,6 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="hspider" />
-          <element id="module-output" name="hspider-admin" />
           <element id="module-output" name="hspider-admin-contrl" />
           <element id="module-output" name="hspider-common" />
           <element id="module-output" name="hspider-dao" />
@@ -80,7 +79,6 @@
           <element id="library" level="project" name="Maven: org.eclipse.jdt.core.compiler:ecj:4.4.2" />
         </element>
       </element>
-      <element id="javaee-facet-resources" facet="hspider-admin/web/Web" />
     </root>
   </artifact>
 </component>

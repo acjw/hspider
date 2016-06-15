@@ -24,6 +24,7 @@
         <processorPath useClasspath="true" />
         <module name="hspider-admin" />
         <module name="hspider-admin-contrl" />
+        <module name="hspider-admin-html" />
         <module name="hspider-common" />
         <module name="hspider-dao" />
         <module name="hspider-msg" />
@@ -35,6 +36,7 @@
       <module name="hspider" target="1.8" />
       <module name="hspider-admin" target="1.8" />
       <module name="hspider-admin-contrl" target="1.8" />
+      <module name="hspider-admin-html" target="1.8" />
       <module name="hspider-common" target="1.8" />
       <module name="hspider-dao" target="1.8" />
       <module name="hspider-msg" target="1.8" />
