@@ -5,24 +5,23 @@ app.config(function ($routeProvider, $httpProvider) {
         templateUrl: 'summary.html',
         controller: 'summary',
         controllerAs: 'controller'
-    }).when('/login', {
-        templateUrl: 'login.html',
-        controller: 'navigation',
+    }).when('/spider', {
+        templateUrl: 'spider.html',
+        controller: 'spider',
         controllerAs: 'controller'
     }).otherwise('/');
 
     $httpProvider.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 });
-app.controller('summary', function ($http) {
+app.controller('summary', function ($http,$scope) {
     var self = this;
     $http.get('/server/myServers').then(function(response) {
-        self.servers = response.data.data.servers;
-        console.log(self.servers);
+        $scope.servers = response.data.data.servers;
     })
     console.log('hone');
 });
-app.controller('navigation', function ($http) {
+app.controller('spider', function ($http) {
     var self = this;
     console.log('nav');
 });
