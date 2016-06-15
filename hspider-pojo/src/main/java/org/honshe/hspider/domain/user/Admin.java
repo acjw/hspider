@@ -4,13 +4,14 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.io.Serializable;
 
 /**
  * Created by honshe on 2016/6/14.
  */
 @Entity
 @Table(name = "admin")
-public class Admin {
+public class Admin implements Serializable {
 
     @Id
     @Column(name = "admin_id")

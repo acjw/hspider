@@ -1,5 +1,6 @@
 package org.honshe.hspider.web.rest;
 
+import org.honshe.msg.RestResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,7 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class ServerRestController {
     
     @RequestMapping(value = "myServers",method = RequestMethod.GET)
-    public String myServers() {
-        return "myServers";
+    public RestResult myServers() {
+        RestResult result = new RestResult();
+        return result;
     }
 }
