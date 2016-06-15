@@ -24,3 +24,17 @@ h1,h2,h3,h4,h5,h6{font-weight:normal;}
 .u-region-box .u-content {
     padding: 28px 24px;
 }
+.table thead tr th {
+    padding: 8px 8px;
+    font-weight: normal;
+    color: #999;
+    border-bottom: 1px solid #e1e6eb;
+    background-color: #F5F6FA;
+}
+.table {
+    background: #FFF;
+    background-color: rgb(255, 255, 255);
+    font-size: 12px;
+    margin-top: 8px;
+    border: 1px solid #e1e6eb;
+}
