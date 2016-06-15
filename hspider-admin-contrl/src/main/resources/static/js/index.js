@@ -18,7 +18,9 @@ app.controller('summary', function ($http,$scope) {
         $scope.servers = response.data.data.servers;
     });
 });
-app.controller('spider', function ($http) {
+app.controller('spider', function ($http,$scope) {
     var self = this;
-    console.log(self);
+    $http.get('/spider/mySpiders').then(function (response) {
+        $scope.spiders = response.data.data.spiders;
+    });
 });

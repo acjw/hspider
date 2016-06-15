@@ -18,7 +18,7 @@ public class SpiderView {
     @Column(name = "server_id")
     private Long serverId;
     @Column(name = "server_name")
-    private Long serverName;
+    private String serverName;
     @Column(name = "spider_name")
     private String spiderName;
 
@@ -39,11 +39,11 @@ public class SpiderView {
         this.serverId = serverId;
     }
 
-    public Long getServerName() {
+    public String getServerName() {
         return serverName;
     }
 
-    public void setServerName(Long serverName) {
+    public void setServerName(String serverName) {
         this.serverName = serverName;
     }
 
