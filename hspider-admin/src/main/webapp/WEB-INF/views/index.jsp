@@ -9,15 +9,22 @@
     <jsp:include page="global/global.jsp"/>
     <link rel="stylesheet" href="${basePath}/static/index.css">
 </head>
-<body>
+<body ng-app="admin">
 <div class="g-hd">
     honshe
 </div>
 <div class="g-sd">
-    w边栏 asdfa
+    <div>
+        <ul>
+            <li>
+                <a href="#/">概览</a>
+                <a href="#/list">实例</a>
+            </li>
+        </ul>
+    </div>
 </div>
 <div class="g-mn">
-    <div class="row">
+    <div ng-view class="row">
         <div class="col-sm-12 u-console-title">
             <h5>我的服务器</h5>
         </div>
@@ -44,5 +51,6 @@
 
 </div>
 <jsp:include page="global/global-script.jsp"/>
+<script src="${basePath}/static/index/index.js"></script>
 </body>
 </html>
