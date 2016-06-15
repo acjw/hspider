@@ -2,7 +2,7 @@ var app = angular.module('admin', ['ngRoute']);
 app.config(function ($routeProvider, $httpProvider) {
 
     $routeProvider.when('/', {
-        templateUrl: 'html/summary.html',
+        templateUrl: 'summary.html',
         controller: 'summary',
         controllerAs: 'controller'
     }).when('/login', {
