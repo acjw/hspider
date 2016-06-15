@@ -1,11 +1,13 @@
 package org.honshe.hspider.web.rest;
 
 import org.honshe.hspider.domain.server.Server;
+import org.honshe.hspider.domain.spider.SpiderBaseInfo;
 import org.honshe.hspider.domain.spider.SpiderView;
 import org.honshe.hspider.service.server.ServerService;
 import org.honshe.hspider.spider.SpiderBaseInfoService;
 import org.honshe.hspider.spider.SpiderViewService;
 import org.honshe.msg.RestResult;
+import org.honshe.util.number.NumberFormat;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -36,9 +38,10 @@ public class SpiderRestController {
 
     @RequestMapping(value = "spiderDetail", method = RequestMethod.GET)
     public RestResult spiderDetail(String spiderId) {
-        Long sid = Long.parseLong(spiderId);
-        spiderBaseInfoService.findOne(sid);
+        Long sid = NumberFormat.String2Long(spiderId);
+        SpiderBaseInfo spider = spiderBaseInfoService.findOne(sid);
         RestResult result = new RestResult();
+        result.getData().put("spider", spider);
         return result;
     }
 }
